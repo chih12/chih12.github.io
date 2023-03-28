@@ -12,13 +12,13 @@ background: '/PATH_TO_IMAGE'
 现在已经是2023年了，移动设备使用的 UFS 闪存速度远高于机械硬盘，百兆甚至千兆网已经开始普及。WiFi 5 的最大速率不到 7000Mbit/s，此时 WiFi 速率反而成为拖慢速度的一环。
 
 在极少数场景下，会需要使用笔记本电脑开启热点共享有线网络，然而使用 Windows 自带的热点时出了问题，频段使用默认设置只能开启 2.4Ghz，手动选择 5GHz 的时候会提示我选择的频段无法使用。
-![不能开启 5GHz WiFi 热点](../img/2023-03-28-screenshot-cannot-use-hotspot.png)
+![不能开启 5GHz WiFi 热点](../img/20230328-screenshot-cannot-use-hotspot.png)
 不过现在的信息污染也太严重了，到处都是百家号式的垃圾文章，还好不难搜索到答案，[英特尔的支持网站](https://www.intel.cn/content/www/cn/zh/support/articles/000029083/network-and-i-o/wireless-networking.html)上已经有了解释：
 >某些国家/地区存在监管限制，不允许热点自行在 5 GHz 频段上运行。只有当 Windows® 10 的电脑连接至位于特定（被动）的 5GHz 通道上的无线接入点 (AP) 时，您才能在 5GHz 上使用热点。
 
 跟 4G 5G 一样，为了避免干扰雷达或卫星通信，在不同国家 WiFi 使用的信道也不同。在实际使用中，不可能所有的设备都能通过卫星定位确认设备的地理位置。对于笔记本电脑而言，最简单的方法便是周围有什么频段，我就用什么频段，我不关心你的地理位置在哪里，你也不能手动调整国家地区选项。这更多考虑了法律层面上的问题，笔记本可以随时移动，要是跟路由器一样可以手动选择地区或者刷其他国家版本系统，岂不是可以带着笔记本随便去什么军事科研区域乱晃。
-![中国 5GHz WiFi 频段](../img/2023-03-28-wifi-band-in-china.png)
-![日本 5GHz WiFi 频段](../img/2023-03-28-wifi-band-in-japan.png)
+![中国 5GHz WiFi 频段](../img/20230328-wifi-band-in-china.png)
+![日本 5GHz WiFi 频段](../img/20230328-wifi-band-in-japan.png)
 
 ## 最终解决方案
 拿出手机开一个 5GHz WiFi，笔记本电脑连接到手机热点后再在电脑上开启 5GHz WiFi。网卡的其他设置都没有动的必要。
