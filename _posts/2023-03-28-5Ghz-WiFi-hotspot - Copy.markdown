@@ -2,7 +2,7 @@
 layout: post
 title: "为什么电脑上无法开启 5Ghz WiFi 热点"
 subtitle: "There is no subtitle."
-date: 2023-03-28 18:00:00
+date: 2023-03-28 18:00:00 +0800
 background: '/PATH_TO_IMAGE'
 ---
 **因作者才疏学浅，本文难免有误，仅供参考，敬请读者不吝赐教**
