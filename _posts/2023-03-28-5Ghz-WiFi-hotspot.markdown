@@ -17,5 +17,5 @@ background: '/PATH_TO_IMAGE'
 ![中国 5GHz WiFi 频段](../img/2023-03-28-wifi-band-in-china.png)
 ![日本 5GHz WiFi 频段](../img/2023-03-28-wifi-band-in-japan.png)
 
-##最终解决方案
+## 最终解决方案
 拿出手机开一个 5GHz WiFi，笔记本电脑连接到手机热点后再在电脑上开启 5GHz WiFi。网卡的其他设置都没有动的必要。
